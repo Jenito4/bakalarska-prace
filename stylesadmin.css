@@ -1,0 +1,104 @@
+/*---------------------navigace-----------------------*/ 
+
+ /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+ 
+/*----------------------footer--------------------------*/  
+  
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+
+/*--------------------carousel------------------------*/
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+
+/*-----------------------text a stránka-----------------*/
+   
+.pagePadding{
+  padding-top: 10em;
+}
+
+.pagePadding h1{
+  text-align: center;
+}
+
+.pageText{
+  text-align: justify;
+  margin: 4em 2em 2em 2em;
+}
+
+
+/*-----------------IDK-----------------------------------*/
+
+@media screen and (min-width: 768px){
+  .pagePadding{
+    padding-top: 5em;
+  }
+  .pageText{
+    text-align: justify;
+    margin: 4em 8em 2em 8em;
+    font-size: 1.3em;
+  }
+}
+
+iframe.googleMap{
+  width: 20em;
+  height: 20em;
+}
+
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none;
+  }
+}
+
+/*---------------------newsletter-----------------------------*/
+
+.newsletter {
+padding: 80px 0;
+}
+
+.newsletter .content {
+max-width: 650px;
+margin: 0 auto;
+text-align: center;
+position: relative;
+z-index: 2; }
+.newsletter .content h2 {
+color: #243c4f;
+margin-bottom: 40px; }
+.newsletter .content .form-control {
+height: 50px;
+border-color: #ffffff;
+border-radius:0;
+}
+.newsletter .content.form-control:focus {
+box-shadow: none;
+border: 2px solid #243c4f;
+}
+.newsletter .content .btn {
+min-height: 50px; 
+border-radius:0;
+background: #243c4f;
+color: #fff;
+}
+
+
+/*---------------------------odkazy ve footer--------------------*/
